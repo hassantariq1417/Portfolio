@@ -197,6 +197,12 @@ h6 {
   padding: 0 24px;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
 .container--narrow {
   max-width: var(--container-narrow);
 }
@@ -2024,11 +2030,23 @@ section {
 
   .hero__buttons .btn {
     width: 100%;
+    padding: 12px 20px;
+    white-space: normal;
   }
 
   .hero__stats {
     flex-direction: column;
     gap: 20px;
+  }
+
+  .contact__form {
+    padding: 24px 16px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 12px 14px;
+    font-size: 0.95rem;
   }
 }
 
