@@ -1031,7 +1031,8 @@ section {
 
 .project-card__image {
   width: 100%;
-  aspect-ratio: 4/3;
+  aspect-ratio: 4/5;
+  /* Taller ratio for better mobile/vertical video fit */
   background: var(--gradient-card);
   position: relative;
   overflow: hidden;
